@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS CRUD system APP</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row mt-3">
+        <div class="col-3">
+            <div class="card">
+                <div class="card-body">
+                    <input type="text" class="form-control" placeholder="Product name" id="product-name">
+
+                    <input type="number" class="form-control mt-3" placeholder="Product price" id="product-price">
+
+                    <input type="color" class="form-control mt-3" id="product-color">
+
+                    <button type="button" class="btn btn-success mt-3 d-block ml-auto" onclick="addProduct()">Add</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-9">
+            <div class="row" id="result"></div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
